@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nuremirrz/tz-todo-app/static/css/main.2a51f119.css",
+    "main.js": "/nuremirrz/tz-todo-app/static/js/main.57abd825.js",
+    "index.html": "/nuremirrz/tz-todo-app/index.html",
+    "main.2a51f119.css.map": "/nuremirrz/tz-todo-app/static/css/main.2a51f119.css.map",
+    "main.57abd825.js.map": "/nuremirrz/tz-todo-app/static/js/main.57abd825.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a51f119.css",
+    "static/js/main.57abd825.js"
+  ]
+}
