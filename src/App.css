@@ -1,0 +1,109 @@
+h1 {
+  text-align: center;
+  font-size: 2.2em;
+  margin-bottom: 40px;
+  margin-top: 24px;
+}
+h3 {
+  margin-bottom: 20px;
+  margin-top: 4px;
+  border-bottom: 1px solid #96361c;
+}
+.app__container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input__form{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 50px;
+  margin-bottom: 30px;
+  width: 60%;
+}
+
+.input__form input,
+.item__container input {
+  width: 60%;
+  height: 50px;
+  border: none;
+  border-radius: 60px;
+  padding: 0px 10px;
+  border: 2px solid #96361c;
+  outline: none;
+}
+
+.input__form button,
+.item__container button {
+  height: 52px;
+  padding: 5px 6px;
+  color: #96361c;
+  border: 2px solid #96361c;;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.input__form button:hover,
+.item__container button:hover {
+  color: white;
+  background-color: #96361c;
+  transition: 0.3s
+}
+
+.list__container {
+  border: 2px solid #96361c;  
+  padding: 0 30px;
+  max-width: 30%;
+}
+
+.tasks__container {
+  overflow-y: auto;  /* Включаем вертикальный скролл для задач */
+  max-height: 150px; /* Ограничиваем высоту для трех задач */
+}
+
+/* ////////////////// */
+/* Стили для скроллбара в WebKit-браузерах (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 10px; /* Ширина скроллбара */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Цвет фона трека скроллбара */
+  border-radius: 10px; /* Округлость трека */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c24928; /* Цвет ползунка скроллбара */
+  border-radius: 10px; /* Округлость ползунка */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #aa3a26; /* Цвет ползунка при наведении */
+}
+
+/* ///////////////////// */
+.item__container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}  
+.item__container input{
+  height: 30px;
+}
+
+.item__container button{
+  height: 34px;
+  padding: 1px 10px;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+.edit__span{
+  font-size: 1.2rem;
+}
